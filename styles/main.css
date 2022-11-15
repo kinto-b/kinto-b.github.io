@@ -179,7 +179,6 @@ table {
     padding: 0;
     border: 0;
     table-layout: fixed;
-    line-height: 12px;
 }
 
 td p {
@@ -187,7 +186,7 @@ td p {
 }
 
 td.key {
-    font-size: 0.7rem;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #777;
@@ -198,7 +197,6 @@ td.key {
 
 td.value {
     font-weight: 300;
-    font-size: 0.9rem;
 }
 
 /* 
