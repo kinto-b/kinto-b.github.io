@@ -246,3 +246,12 @@ td.value {
         width: 100%;
     }
 }
+
+/*
+    || FLASH OF UNSTYLED CONTENT
+*/
+
+html {
+    visibility: visible;
+    opacity: 1;
+}
