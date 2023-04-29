@@ -1,12 +1,10 @@
-﻿<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/css_reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/css_reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>kinto behr</title>
@@ -199,12 +197,11 @@
         <div class="bottom-menu">
             <hr>
             <p>
-                <a href="index.html">kinto behr</a>
-                · <a href="about.html">about</a>
+                <a href="/">kinto behr</a>
+                · <a href="/about">about</a>
                 · <a href="https://github.com/kinto-b">github</a>
             </p>
         </div>
     </div>
 </body>
 </html>
-

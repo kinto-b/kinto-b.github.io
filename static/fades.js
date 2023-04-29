@@ -1,4 +1,4 @@
-﻿function unfade(element) {
+function unfade(element) {
     var op = element.style.opacity;  // initial opacity
     if (op < 1) {
         var op = 0.01;  // initial opacity
@@ -25,3 +25,5 @@ async function unfade_all() { // Needs to be async to get await to work
 }
 
 document.getElementById("title").onclick = unfade_all
+
+

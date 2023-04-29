@@ -1,12 +1,10 @@
-﻿<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <style>html{visibility: hidden;opacity:0;}</style> 
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="styles/css_reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/css_reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
 
     <title>kinto behr</title>
 </head>
@@ -34,20 +32,20 @@
                     <br />
                     <br />
 
-                    Until then, you might like to see what I've been doing on <a href="https://github.com/kinto-b">github</a> or drop me a line at kinto.behr &#9728; gmail dot com.
+                    Until then, you might like to see what I've been doing on <a href="https://github.com/kinto-b">github</a> or drop me a line at kinto.behr@gmail.com.
                 </p>
             </div>
         </div>
         <div class="bottom-menu">
             <hr>
             <p>
-                <a href="index.html">kinto behr</a>
-                · <a href="resume.html">resume</a>
+                <a href="/">kinto behr</a>
+                · <a href="/resume">resume</a>
                 · <a href="https://github.com/kinto-b">github</a>
             </p>
         </div>
     </div>
-    <script src="js/fades.js"></script>
+    <script src="fades.js"></script>
 </body>
 
 </html>
