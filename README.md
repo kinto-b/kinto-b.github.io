@@ -1,1 +1,6 @@
-# kinto behrThis minimalistic website was written entirely by me on a rainy Sunday afternoon. The design was partially inspired by [solar.lowtech](https://solar.lowtechmagazine.com/), though unfortunately I cannot claim to be powering it using a solar panel on my balcony.Feel free to fork this repository and use it as a template for yourself. The code is mostly just HTML and CSS, so modifying it to your taste should be a fairly straightforward exercise.
+# Minimalist Personal Website 
+
+- Sveltekit port of a personal website which was written in Vanilla HTML, CSS, JS.
+
+
+
