@@ -1,1 +1,38 @@
-# kinto behrThis minimalistic website was written entirely by me on a rainy Sunday afternoon. The design was partially inspired by [solar.lowtech](https://solar.lowtechmagazine.com/), though unfortunately I cannot claim to be powering it using a solar panel on my balcony.Feel free to fork this repository and use it as a template for yourself. The code is mostly just HTML and CSS, so modifying it to your taste should be a fairly straightforward exercise.
+# create-svelte
+
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+
+## Creating a project
+
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
