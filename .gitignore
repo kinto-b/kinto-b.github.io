@@ -11,3 +11,5 @@ vite.config.ts.timestamp-*
 static/assets/pdf/resume.aux
 static/assets/pdf/resume.log
 latex/resume.synctex.gz
+latex/resume_template.pdf
+latex/resume_template.synctex.gz
