@@ -17,6 +17,7 @@
         width: 80%;
         margin: 0 auto;
         margin-bottom: 2rem;
+        text-align: justify;
     }
 
     .stub {
