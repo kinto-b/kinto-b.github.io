@@ -27,19 +27,20 @@
     </header>
 
     <Section title="Personal Profile">
-        I am a data scientist and statistician with expertise in R and a keen interest in process
-        automation, software engineering, and applied statistics. Although I am most comfortable in R, I
-        have varying degrees of experience with a number of other languages from Python and SQL
-        (fluent), through LaTeX, HTML/CSS, JavaScript and Rust (intermediate).
+        I am a data professional with experience working in both modeling and engineering focused roles. No matter
+        which side of the fence I'm on, I love writing clean, modular, well-organised code to solve challenging
+        data problems. I am completely comfortable writing production-ready code in R and Python, and have a good deal 
+        of experience designing and maintaining SQL databases. 
         <br />
         <br />
         Outside of work, I am an active contributor to the open source software community, having
-        developed or made large contributions to a number of R packages.
+        developed or made large contributions to a number of R packages. I'm also an avid reader, particularly of 
+        philosophy, and a keen (though not very good!) rock climber.
     </Section>
 
     <Section title="Employment History">
         <Position 
-            title="Statistician" 
+            title="Data Scientist" 
             org="Social Research Centre"
             tenure="2022 - Present"
         >
@@ -47,39 +48,38 @@
                 I am currently shared between the data and statistical methods teams, spending half my time
                 in each. This being the case, I work on a fairly wide variety of things.
                 On the one hand, I am responsible for carrying out various statistical procedures (e.g.
-                weighting, small area estimation, propensity modelling) and writing technical reports.
+                weighting, small area estimation, propensity modelling, forecasting) and writing technical reports.
                 On the other hand, I am the technical lead on a variety of software engineering projects,
-                typically focussed on data modeling, processing, analysis and reporting, but often general
+                typically focussed on data modeling, integration, processing, analysis and reporting, but often general
                 application development. Some of the things I've worked on in this latter capacity are:
             </p>
+
             <ul>
+                <li>Developing and deploying machine learning models, and designing the API access to them.</li>
                 <li>Developing a three-tier lottery application for setting up and running prize draws.</li>
-                <li>Deploying machine learning models and designing API access to them to retrieve
-                    predictions</li>
-                <li>Redesigning the SQL database and associated workflows that underpin the Life in
-                    Australia study.</li>
+                <li>SQL database design and data pipeline architecture for various projects</li>
             </ul>
         </Position>
 
         <Position
-            title="Data Scientist"
+            title="Data Engineer"
             org="Social Research Centre"
             tenure="2020 - 2022"
         >
             <p>
-                I was the lead data scientist on the <a href="https://www.qilt.edu.au/surveys/student-experience-survey-(ses)">SES</a>,
+                I was the lead data engineer on the <a href="https://www.qilt.edu.au/surveys/student-experience-survey-(ses)">SES</a>,
                 which approaches hundreds of thousands of higher education students each year. In this capacity, I was responsible for
                 maintaining the data infrustructure throughout the full length of the pipeline from sample collection and validation,
-                through fieldwork operations and data processing, to report production.
+                through fieldwork operations and data processing, to report production. 
 
                 <br />
                 <br />
 
-                In addition, I made key contributions to the in-house R package architecture and Shiny application suite. In particular, I
+                In addition, I made key contributions to the in-house package architecture and Shiny application suite. In particular, I
             </p>
             <ul>
                 <li>Authored and/or maintained the majority of in-house packages</li>
-                <li>Trained other data scientists in R package development, helping them to become maintainers in their own right</li>
+                <li>Trained other data professionals in package development</li>
                 <li>Developed a number of complex Shiny applications which became core to projects across the business, including one which won a company-wide competition</li>
             </ul>
         </Position>
@@ -111,7 +111,7 @@
             <ul>
                 <li>Awarded with Excellence</li>
                 <li>Thesis title: <i>Classification with Semi-Supervised Learning Algorithms</i></li>
-                <li>UNSW WAM: 92% so far; UniMelb GPA: 4.0 (WAM: 88%)</li>
+                <li>WAM: 92%</li>
             </ul>
         </Position>
 
@@ -158,7 +158,7 @@
 
     <Section title="Skills and Abilities">
         <ul>
-            <li>R, Git, SQL, Python, LaTeX, HTML/CSS, Javascript, Excel, C++</li>
+            <li>R, Git, SQL, Python, LaTeX, HTML/CSS, Javascript (Svelte), Rust</li>
             <li>Data management</li>
             <li>Modelling</li>
             <li>Automation</li>
