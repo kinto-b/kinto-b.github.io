@@ -28,4 +28,4 @@ software:
 
 I am a data professional with experience working in both modeling and engineering focused roles. No matter which side of the fence I'm on, I love writing clean, modular, well-organised code to solve challenging data problems. I am completely comfortable writing production-ready code in R and Python, and have a good deal of experience designing and maintaining SQL databases. 
 
-Outside of work, I am an active contributor to the open source software community, having developed or made large contributions to a number of R packages. I'm also an avid reader, particularly of philosophy, and a keen (though not very good!) rock 
+Outside of work, I am an active contributor to the open source software community, having developed or made large contributions to a number of R packages. I'm also an avid reader, particularly of philosophy, and a keen (though not very good!) rock climber. 
