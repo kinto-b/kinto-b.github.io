@@ -1,21 +1,11 @@
 <script>
-    import Card from "$lib/Card.svelte"
+    import Placard from "$lib/Placard.svelte";
+    import Undulation from "$lib/Undulation.svelte";
 </script>
 
-<Card title="kinto behr">
-    <nav>
-        <a href="/about">about</a>
-        <a href="/resume">resume</a>
-        <a href="https://github.com/kinto-b", target="_blank">github</a>
-    </nav>
-</Card>
+<Placard title="Kinto Behr" , color="black">
+    Under construction. In the meantime, check out my
+    <a href="https://github.com/kinto-b" target="_blank">github page</a>.
+</Placard>
 
-<style>
-    nav > a {
-        font-size: 1.5rem;
-        font-weight: bolder;
-        display: block;
-        margin-bottom: 0.5rem;
-    }
-</style>
-
+<Undulation canvas_width="800" , canvas_height="600" />
