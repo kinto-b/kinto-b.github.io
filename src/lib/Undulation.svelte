@@ -11,7 +11,7 @@
     let t = 0;
     setInterval(function () {
         t++;
-    }, 1);
+    }, 25);
 
     $: path1 = bezierPath(
         bezierUpdate(bezier1, t / 100, [1, -1], [0, -0.1, 0, 0, -1, -0.5]),

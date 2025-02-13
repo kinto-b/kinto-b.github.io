@@ -3,9 +3,9 @@
     import Undulation from "$lib/Undulation.svelte";
 </script>
 
-<Placard title="Kinto Behr" , color="black">
+<Placard title="Kinto Behr" color="black">
     Under construction. In the meantime, check out my
     <a href="https://github.com/kinto-b" target="_blank">github page</a>.
 </Placard>
 
-<Undulation canvas_width="800" , canvas_height="600" />
+<Undulation canvas_width="800" canvas_height="600" />
