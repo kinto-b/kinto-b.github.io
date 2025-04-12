@@ -1,7 +1,4 @@
 <script>
-    export let canvas_width;
-    export let canvas_height;
-
     import { bezierPath, bezierUpdate } from "$lib/bezier.js";
     let bezier1 = { M: [10, 10], C: [100, 200, 0, 20, 600, 300] };
     let bezier2 = { M: [200, 100], C: [300, 0, 100, 20, 600, 10] };
@@ -28,7 +25,10 @@
 </script>
 
 <div class="canvas">
-    <svg width={canvas_width} height={canvas_height} viewBox="0 -200 100 800">
+    <div class="overlay">
+        <slot></slot>
+    </div>
+    <svg viewBox="0 -200 800 800" preserveAspectRatio="xMidYMid meet">
         <path d={path1} stroke="#66753C" stroke-width="2" fill="transparent" />
         <path
             d={path2}
@@ -48,6 +48,25 @@
 
 <style>
     .canvas {
-        padding: 50px 0;
+        width: 100vw; /* Full width of the viewport */
+        height: 100vh; /* Full height of the viewport */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        overflow: hidden; /* Prevent scrollbars */
+    }
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        pointer-events: none; /* Prevent the overlay from interfering with SVG interactions */
     }
 </style>
