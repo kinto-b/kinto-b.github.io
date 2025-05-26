@@ -67,6 +67,5 @@
         top: 10%;
         left: 10%;
         right: 10%;
-        pointer-events: none; /* Prevent the overlay from interfering with SVG interactions */
     }
 </style>
